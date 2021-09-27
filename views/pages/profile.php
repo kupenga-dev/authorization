@@ -16,7 +16,7 @@ if(!$_SESSION["user"])
 </head>
 <body>
     <div>
-        <h1>Hello, <?= $_SESSION['user']['name']?></h1>
+        <h1 class="profile">Hello, <?=$_SESSION['user']['name']?></h1>
     </div>
     <form action="/auth/logout" method="post">
     <button class="href_button _profile" type="submit">Logout</button>

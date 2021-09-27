@@ -132,3 +132,7 @@ body {
     border-radius: 10px;
     font-size: 14px;
 }
+.profile {
+    font-weight: 300;
+    font-size: 18;
+}

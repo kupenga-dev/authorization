@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+addDefaultCharset UTF-8
+RewriteRule ^(.*)$ index.php\?uri\=$1 [L,QSA]
+<Files "database.json">
+Order Deny,Allow
+Deny from all
+</Files>
